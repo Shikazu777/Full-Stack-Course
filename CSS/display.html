@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS display properties</title>
+    <style>
+        .block {
+            display: block;
+            width: 100%;
+            background-color: rgb(141, 200, 252);
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .inline {
+            display: inline;
+            width: 100%;
+            background-color: rgb(142, 247, 182);
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .inline-block {
+            display: inline-block;
+            width: 150px;
+            height: 50px;
+            background-color: lightpink;
+            margin: 20px;
+            padding: 10px;
+        }
+
+        .flex {
+            display: flex;
+            background-color: bisque;
+            padding: 10px;
+
+        }
+
+        .flex div{
+            background-color: darkgray;
+            margin: 5px;
+            padding: 10px;
+            width: 100px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--.BLock-->
+
+
+    <div class="block">This is a Block Element
+
+    </div>
+    <div class="block">This is another Block Element
+
+    </div>
+
+    <br>
+
+
+    <!--2. Inline-->
+
+
+    <span class="inline">This is Inline Element</span>
+    <span class="inline">This is another Inline Element</span>
+
+    <br>
+
+    <!--3. Inline Block-->
+
+
+    <div class="inline-block">This is a Inline Block</div>
+    <div class="inline-block">This is Another Inline Block</div>
+    <br>
+
+    <!--4.FLEX-->
+
+    <div class="flex">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+        <div>Item 4</div>
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
