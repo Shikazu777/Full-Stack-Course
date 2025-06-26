@@ -38,12 +38,33 @@
 
         }
 
-        .flex div{
-            background-color: darkgray;
+        .flex div {
+            background-color: lightcoral;
             margin: 5px;
             padding: 10px;
-            width: 100px;
+            width: 300px;
             text-align: center;
+            height: 200px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            background-color: aquamarine;
+            padding: 10px;
+        }
+
+        .grid div {
+
+            background-color: orange;
+            padding: 10px;
+            text-align: center;
+            margin: 10px;
+        }
+
+        .none{
+            display: none;
         }
     </style>
 </head>
@@ -85,10 +106,39 @@
         <div>Item 2</div>
         <div>Item 3</div>
         <div>Item 4</div>
+        <div>Item 5</div>
+        <div>Item 6</div>
+        <div>Item 7</div>
+        <div>Item 8</div>
+        <div>Item 9</div>
+        <div>Item 10</div>
 
     </div>
 
 
+    <!--5. Grid -->
+
+
+    <div class="grid">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+        <div>Item 4</div>
+        <div>Item 5</div>
+        <div>Item 6</div>
+        <div>Item 7</div>
+        <div>Item 8</div>
+        <div>Item 9</div>
+        <div>Item 10</div>
+        </div>
+
+        <br>
+
+        <!--6. NONE-->
+
+        <div class="none">
+        <h1>I AM NONE</h1>
+        </div>
 
 
 
