@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes Selectors</title>
+
+    <style>
+        h1{
+            color: brown;
+        }
+        .text-h1{ 
+            color: blue;
+            padding: 5px;
+            border: 2px solid;
+            border-radius: 10px;
+        }
+        .para{
+            font-family: cursive;
+        }
+
+        .tags{
+            border: 2px solid;
+            padding: 10px;
+        }
+
+        .tags, .h2tag, .h3tag,.h4tag {
+            font-size: 2rem;
+            color: blue;
+        }
+
+        .about h1{
+            color: orange;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1 class="text-h1">Welcome to CSS class selector</h1>
+
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, consequuntur optio! Quis ad, sit, voluptatum maiores reprehenderit nihil beatae provident possimus minima cupiditate mollitia. Unde sapiente harum est explicabo et.</p>
+    
+    <hr>
+    <div class="about">
+        <h1 class="text-h1">Welccome to Div, H1</h1>
+        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis accusantium pariatur vero! Adipisci ullam necessitatibus beatae aliquam aliquid eaque eveniet, eum accusantium, nihil veritatis iusto itaque distinctio quo quibusdam in?</p>
+    </div>
+
+    <div class="tags">
+        <h2 class="h2tag">
+            h2 tag
+        </h2>
+        <h3 class="h3tag">
+            h3 tag
+        </h3>
+        <h4 class="h4tag">
+            h4 tag
+        </h4>
+    </div>
+</body>
+</html>
