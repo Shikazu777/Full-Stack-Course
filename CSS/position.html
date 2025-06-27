@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positioning</title>
+    <style>
+        .container {
+            position: relative;
+            border: 2px solid;
+            padding: 20px;
+            height: 500px;
+        }
+
+        .static-box {
+            position: static;
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            margin-bottom: 10px;
+        }
+
+        .relative-box {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            background-color: lightcoral;
+            margin-bottom: 10px;
+            left: 100px;
+            top: 40px;
+
+        }
+
+        .absolute-box {
+            position: absolute;
+            top: 64px;
+            left: 50px;
+            width: 100px;
+            height: 100px;
+            background-color: bisque;
+        }
+
+        .fixed-box {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            width: 100px;
+            height: 100px;
+            background-color: blueviolet;
+        }
+
+        .sticky-box {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            width: 100%;
+            display: block;
+            background-color: brown;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="static-box">Static</div>
+        <div class="relative-box">Relative</div>
+        <div class="absolute-box">Absolute</div>
+        <div class="sticky-box">Sticky</div>
+
+
+    </div>
+    <dic class="fixed-box">Fixed Box</dic>
+    <hr>
+    <div>
+        Static: The element is positioned to the normal flow of the document
+    </div>
+    <hr><br><br>
+    <div>Relative: the element is positioned relative to its normal position. setting the top, right, bottom and left
+        properties will cause it to be adjusted away from its normal position.</div>
+    <hr><br><br>
+    Absolute: the element is positioned relative to its closest positoined ancestor (not static). If there are no such
+    ancestors, it uses the document body, and moves along with page scrolling
+    <hr><br><br>
+    Fixed: the element is positioned relative to the viewpoint which means it always stays in the same place even if the
+    page is scrolled.
+    <hr><br><br>
+    Sticky: the element is treated as relative positioned until it crosses a specified threshold, at which point it is
+    treated as fixed positioned.
+
+</body>
+
+</html>
