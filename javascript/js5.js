@@ -32,5 +32,45 @@ let mystr3 = 'false';
 mystr3 = Boolean(mystr3);
 console.log(mystr3, typeof(mystr3));
 
+let i = 10;
+console.log(i.toString(), typeof(i.toString()));
+
+let z = '100';
+z = Number(z);
+console.log(z, typeof(z));
+
+let zn = '100wd';
+zn = Number(zn);
+console.log(zn, typeof(zn));
+
+var u = Number([1, 2, 3, 4, 5, 6]);
+console.log(u, typeof(u));
+
+var u = Number([1]);
+console.log(u, typeof(u));
+
+var u = Number('3333.453333');
+console.log(u, typeof(u));
+console.log(u.toFixed(2), typeof(u));
+
+let num = parseFloat('456.786');
+console.log(num, typeof(num));
+
+
+//
+
+
+console.log(1223 + "2345");
+console.log(1223 + 4);
+console.log("12" + "3");
+console.log("12" - "3");
+console.log("12" - 3);
+console.log(12 - "3" + 10 + 20 + "5"); // 12-10+20 = 42-3 = 39 + "5" // Note: The comment in the image (12-10+20) does not match the code (12-"3"+10+20+"5"). The correct evaluation is 9 + 10 + 20 + "5" = 39 + "5" = "395"
+console.log(2 * "2" * "3" - 10 - "2");
+console.log(2 * "2" * "3" - 10 + "2");
+console.log(10 / "2");
+console.log("10" / "2");
+console.log("10" % "2");
+
 
 
