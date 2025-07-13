@@ -26,3 +26,14 @@ todo.style.color='red'
 
 // Multi Element
 
+let elems=document.getElementsByClassName('child');
+console.log(elems)
+console.log(elems[0].childNodes)
+console.log(elems[0].children)
+
+let d= document.querySelectorAll('h5.guvi')
+console.log(d)
+d[0].style.color='pink'
+d[1].style.color='yellow'
+d[2].style.color='blue'
+d[3].style.color='orange'
