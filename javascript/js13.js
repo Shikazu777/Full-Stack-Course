@@ -37,3 +37,6 @@ d[0].style.color='pink'
 d[1].style.color='yellow'
 d[2].style.color='blue'
 d[3].style.color='orange'
+
+let z= document.getElementsByTagName('div')
+console.log(z)
