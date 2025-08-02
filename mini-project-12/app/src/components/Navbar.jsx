@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
+
 export default function Navbar() {
   return (
     <nav className="navbar navbar-dark bg-secondary p-3">
