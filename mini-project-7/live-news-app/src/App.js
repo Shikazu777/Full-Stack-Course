@@ -12,7 +12,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    const API_KEY = "caa8aacdfd5c4d45a41153c156f24603";
+    const API_KEY = "";
     const URL = `https://newsapi.org/v2/top-headlines?country=in&apiKey=${API_KEY}`;
 
     fetch(URL)
