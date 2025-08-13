@@ -11,5 +11,12 @@ use dj;
 
 create table Contact(
     id int,
-    Name varchar(20)
-)
+    Name varchar(20),
+    email varchar(50),
+    phone varchar(12),
+    description varchar(100)
+
+);
+
+drop table contact;
+truncate  table contact;
